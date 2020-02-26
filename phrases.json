@@ -1,0 +1,27 @@
+{
+    "bonjour":  "Bonjour . $user !",
+    "salut":    "Bonjour . $user!",
+    
+    "ca va": "Ça va bien, et vous?",
+    "ça va": "Ça va bien, et vous?",
+
+    "ton nom": "Mon nom est Larabot-2000, ravis de faire votre connaissance.",
+
+    "ton age": "Mais voyons! On ne demande jamais son âge à un ordinateur!",
+
+    "heure": "Il est présentement [heure].",
+
+    "meteo": "Nous avons des possibilité de neige, pluie, passages nuageux, soleil, vents, brume et verglas.",
+    "météo": "Nous avons des possibilité de neige, pluie, passages nuageux, soleil, vents, brume et verglas.",
+
+    "secret": "Le secret de l'univers est 101010",
+
+    "blague": "Il était une fois un groupe de programmation Web 3, ils avaient tous fini leur tp synthèse en avance! ...*silence*... Haha...",
+
+    "flip": "(╯°□°）╯︵ ┻━┻",
+
+    "aide": "La réponse est juste là, sur Internet!",
+
+    "bye":          "Au revoir [nom]. Reviens vite!",
+    "au revoir":    "Au revoir [nom]. Reviens vite!"
+}

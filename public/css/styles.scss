@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: url("/images/pattern.png");
+    color: #fff;
+    text-shadow: 0 .75px black;
+    font-family: 'Solway', serif;
+    position: relative;
+}
+.container {
+    width: 550px;
+    margin: 10px auto;
+    background-color: rgba(20,20,20,0.9);
+    padding: 30px;
+    position: relative;
+}
+
+.individualResponse{
+    border: 2px solid #3282b8;
+    background-color:black;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.individualResponse:nth-child(-n+2){
+    background-color: #0f4c75;
+}
+
+.onLoad {
+    animation-name: onLoad;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+}
+.onClick {
+    animation-name: onClick;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+}
+
+.background {
+    background : url("/images/rubix.png");
+}
+
+@keyframes onLoad {
+    0% {
+         
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100%{
+
+    }
+}
+@keyframes onClick {
+    0% {
+         
+    }
+    25% {
+        transform: scaleX(.80);
+    }
+    50%{
+        transform: scaleX(.6);
+    }
+    75% {
+        transform: scaleX(.80);
+    }
+    100% {
+
+    }
+}
+.bot {
+    color:#46b5d1;
+    text-shadow: 0 .75px black;
+    
+    margin-left: 7.5%;
+    
+}
+
+.user{
+    h3 {
+        margin-left: 7.5%;
+    }
+    p {
+        margin-left: 7.5%;
+    }
+   
+}
+form {
+    margin: 20px 0px 50px;
+}
+
+.submit-btn {
+    padding: 5px 10px;
+    font-family: 'Solway';
+}
+.page-link {
+    color: #fff;
+}
+
+form.login .form-group,
+form.register .form-group {
+    margin: 20px 0px;
+}
+
+.loginButtonLogin{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    margin-right:5%;
+}
+
+form.message input[type=text] {
+    font-family: 'Solway';
+    font-size: 28px;
+    background: #222;
+    border: 1px solid #999;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    height: 97px;
+    width: 100%;
+}
+form.message input[type=submit] {
+    display: none;
+}
+
+.message-wrapper {
+    margin: 15px 0px;
+}
+.message {
+    position: relative;
+    height: 100px;
+    font-size: 20px;
+    color: #555;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    display: block;
+}
+.message.message-0,
+.message.message-1 {
+    background: #242;
+    color: #fff;
+}
+.message.user-1 {
+    background: #211;
+}
+.message.message-0.user-1,
+.message.message-1.user-1 {
+    background: #522;
+}
+.message .user {
+    display: block;
+    text-decoration: underline;
+}
+.message .column {
+    padding: 0px 2px;
+}
+
+.message audio {
+    margin: 20px 0px 0px;
+}
